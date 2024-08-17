@@ -25,8 +25,8 @@ def docRead(path):
     sample_text = "\n".join(sample_text_list)
     return sample_text
 
-doc1 = docRead('./w10-quiz-43.docx')
-doc2 = docRead('./w10-quiz-79.docx')
+doc1 = docRead('./w10-quiz-1.docx')
+doc2 = docRead('./w10-quiz-2.docx')
 
 print("doc1:".format(doc1))
 print("doc2:".format(doc2))
